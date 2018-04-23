@@ -3,7 +3,7 @@ style{
   box-sizing: border-box;
 }
 
-.taskledge{
+.task_ledge{
   padding-top: 0px;
   padding-bottom: 0px;
   display: flex;
@@ -19,29 +19,29 @@ style{
   background-origin: padding-box;
 }
 .add_task{
+  margin-top: 5px;
   padding-top: 5px;
+  padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 0px;
   border: 5px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  width: 35px;
+  width: 30px;
   font-size: 20px;
-}
-.add_task > div {
-  background-color: rgb(250, 20, 0);
+  line-height: 30px;
   text-align: center;
-  line-height: 35px;
   font-weight: bold;
+  background-color: rgb(150,150,150);
 }
 .add_task:hover{
-  background-color: red;
+  background-color: grey;
 }
 .task_order{
   margin-left: 5px;
   display: flex;
   flex-direction: row;
-  padding-top: 5px;
+  margin-top: 5px;
   padding-bottom: 0px;
 }
 .tasks {
@@ -50,6 +50,9 @@ style{
   flex-direction: row;
   padding-left: 5px;
   padding-right: 5px;
+  border: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   max-width: 300px;
   min-width: 100px;
   margin-left: 10px;
@@ -59,7 +62,6 @@ style{
 }
 .close_task{
   background-color: rgb(150, 150, 150);
-  margin-left: 0px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 5px;
@@ -72,6 +74,52 @@ style{
 .close_task:hover{
   background-color: red;
 }
+.menu_list{
+  flex: auto;
+  display: flex;
+  justify-content: right;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 20px;
+}
+.close_that_bitch{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.close_that_bitch:hover{
+  background-color: red;
+}
+.smaller_taller_idk_I_am_tired{
+  margin-right: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.smaller_taller_idk_I_am_tired:hover{
+  background-color: grey;
+}
+.minimise{
+  margin-right: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.minimise:hover {
+  background-color: grey;
+}
+.path_ledge{
+  margin-top: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(230, 230, 230);
+}
+.search{
+  border: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
 body{
   margin: 0px;
 }
